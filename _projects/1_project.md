@@ -12,4 +12,4 @@ Here you can find my fork of the package:
 <a href="https://github.com/schnellecom/SimplicialSurfaces">github.com/schnellecom/SimplicialSurfaces</a>
 
 Here is the presentation I did in March 2023:
-<a href="/assets/pdf/fachpraktikum-presentation.pdf" target=”_blank”>fachpraktikum-presentation.pdf</a>
+<a href="/assets/pdf/fachpraktikum-presentation.pdf">fachpraktikum-presentation.pdf</a>
