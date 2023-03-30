@@ -7,6 +7,9 @@ nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# WS19/20 until currently
+Student Assistant at Maple Course/Begleitpraktikum 
 
-Organize your courses by years, topics, or universities, however you like!
+# January 2022
+Introduction to Examination Law/Einführung in das Prüfungsrecht
+As part of being Head of department of teaching and university communications

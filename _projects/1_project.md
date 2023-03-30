@@ -1,19 +1,20 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: SimplicialSurfaces
+description: GAP Package
+img: 
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Simplicial Surfaces Package for GAP. I rewrote some of the functionality as part of the "Fachpraktikum/Practical Training Algebra". I will continue to work on it as part of a student assistant position at the Chair of algebra and representation theory, starting in April 2023.
+Here you can find my fork of the package:
+<a href="https://github.com/schnellecom/SimplicialSurfaces">
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Here is the presentation I did in March 2023:
+<a href="/assets/pdf/fachpraktikum-presentation.pdf">
 
-    ---
+<!--     ---
     layout: page
     title: project
     description: a project with a background image
@@ -78,3 +79,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+ -->
