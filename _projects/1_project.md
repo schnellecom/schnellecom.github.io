@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SimplicialSurfaces
+title: Simplicial Surfaces
 description: GAP Package
 img: 
 importance: 1
