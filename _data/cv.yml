@@ -13,14 +13,14 @@
       institution: RWTH Aachen University
       year: since 2021
       description:
-        - Application Subject: Computer Science
+        - Application Subject: "Computer Science"
     - title: B.Sc.
       institution: RWTH Aachen University
       year: 2021
       description:
-        - Title: The Gelfand-Tsetlin Bases, Now and Then
-        - Advisor: Prof. Ghislain Fourier
-        - Application Subject: Computer Science
+        - Title: "The Gelfand-Tsetlin Bases, Now and Then"
+        - Advisor: "Prof. Ghislain Fourier"
+        - Application Subject: "Computer Science"
 
 - title: Experience
   type: time_table
@@ -42,7 +42,7 @@
   contents:
     - title: <a href="https://github.com/schnellecom/SimplicialSurfaces">Simplicial Surfaces</a>
       year: 2022-now
-      description: Rewrote the funcitonality that generates .html files of polygonal complexes to view them in the browser.
+      description: Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser.
 
 # - title: Honors and Awards
 #   type: time_table
