@@ -2,7 +2,7 @@
 layout: page
 title: Simplicial Surfaces
 description: GAP Package
-img: 
+img: assets/img/ico-2_1.png
 importance: 1
 category: work
 ---

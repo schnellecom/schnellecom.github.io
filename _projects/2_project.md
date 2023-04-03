@@ -2,7 +2,7 @@
 layout: page
 title: 3D printing
 description: For fun
-img: 
+img: assets/img/utensil-box.png
 importance: 2
 category: fun
 ---
