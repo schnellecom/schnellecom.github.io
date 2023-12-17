@@ -11,25 +11,45 @@
   contents:
     - title: working on M.Sc.
       institution: RWTH Aachen University
-      year: since 2021
+      year: expected 04/2024
       description:
-        - Application Subject&#58; Computer Science
+        - Research&#58; topological interlocking and crystallographic groups with applications in civil engineering
+        - Advisor&#58; Niemeyer
+        - Minor&#58; Computer Science
     - title: B.Sc.
       institution: RWTH Aachen University
       year: 2021
       description:
         - Title&#58; The Gelfand-Tsetlin Bases, Now and Then
-        - Advisor&#58; Prof. Ghislain Fourier
-        - Application Subject&#58; Computer Science
+        - Advisor&#58; Fourier
+        - Minor&#58; Computer Science
 
 - title: Experience
   type: time_table
   contents:
-    - title: Student Assistant
-      institution: Chair of Algebra and Representation Theory (ART)
-      year: 2019 - currently
+    - title: Research Assistant
+      institution: RWTH Aachen, Chair of Algebra and Representation Theory
+      year: 2023 - Now
       description:
-        - Working on different Computer Projects, e.g. a Quickpoll software to Quiz students during a lecture
+        - Co-Creation and development of the GAPic package
+        - Development on the SimplicialSurfaces package
+        - Maintenance and development of teaching tools
+        - Giving tutorials
+    - title: Head of Department, Vice Chairperson
+      institution: AStA of RWTH Aachen
+      year: 2021 - 2022
+      description:
+        Department for Education and University Communication (Elected office)
+        - Leading team of 12 volunteers and co-leading five employees
+        - Co-Organizing and attending international conferences
+        - Responsibility for executing financial transactions
+    - title: Student Assistant
+      institution: RWTH Aachen, Chair of Algebra and Representation Theory
+      year: 2019 - 2023
+      description:
+        - Maintenance and development of teaching tools
+        - Technical support for students and members of the chair
+        - Giving tutorials
     # - title: Visiting Professor
     #   institution: California Institute of Technology, Pasadena, California, US
     #   year: 1933
@@ -38,11 +58,54 @@
     #     - Description 2.
 
 - title: Open Source Projects
+  type: nested_list
+  contents:
+    - title: <a href="https://github.com/GAP-ART-RWTH/GAPic">GAPic</a>
+      Co-creator, main-developer
+    - title: <a href="https://github.com/schnellecom/SimplicialSurfaces">Simplicial Surfaces</a>
+      - Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser
+      - Reworked manual generation from live-generated images to pre-generated ones to reduce initial compile time from >2h to under 3min 
+
+- title: Research
   type: time_table
   contents:
-    - title: <a href="https://github.com/schnellecom/SimplicialSurfaces">Simplicial Surfaces</a>
-      year: 2022-now
-      description: Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser.
+    - year: 2023
+      items: 
+        (Preprint, Submitted)\
+        With&#58; Tom Goertzen, Domen Macek, Lukas Schnelle, Meike Weiß, Stefanie Reese, Hagen Holthusen, Alice C. Niemeyer \
+        Mechanical Comparison of Arrangement Strategies for Topological Interlocking Assemblies
+
+- title: Volunteering
+  type: time_table
+  contents:
+    - year: 2019 - Now
+      Member of the Examination Comitee
+    - year: 2021 - 2022
+      IDEALiStiC Board Member for the RWTH
+    - year: 2021 - 2022
+      Member of the Rektorate Commission on Teaching
+    - year: 2021 - 2022
+      Member of the Constitutional Committee
+    - year: 2021 - 2022
+      Member of the Faculty Council of Faculty 1
+    - year: 2020 - 2022
+      Member of the Teaching Committee of Faculty 1
+    
+- title: Professional training
+  type: nested_list
+  contents:
+    - title: Difficult conversations with employees and mastering conflicts
+      RWTH Aachen
+    - title: Leading in hybrid working environments
+      RWTH Aachen
+    - title: Lateral leadership in projects
+      RWTH Aachen
+    - title: Lateral leadership in projects
+      RWTH Aachen
+    - title: Understanding addiction and how to respond appropriately as a manager
+      RWTH Aachen, Short Format
+    - title: Household and economic management Student bodies
+      LAT NRW
 
 # - title: Honors and Awards
 #   type: time_table
@@ -67,7 +130,7 @@
 #         - Description 1.
 #         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> 3D Printing, Programming, Houseplants
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> 3D Printing, Programming, Houseplants

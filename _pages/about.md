@@ -21,4 +21,5 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am currently studying mathematics at RWTH Aachen University and am working on my masters degree.
+Finishing my Masters in Mathematics with application subject Computer Science. Currently I am working on the intersection of topological interlocking and crystallographic groups with applications in civil engineering.
+In my spare time I usually like to tinker with computers, servers or other IT stuff. In recent years I also developed a passion for 3D printing and designing. For relaxation I also care for some houseplants which has become a quite fulfilling hobby.
