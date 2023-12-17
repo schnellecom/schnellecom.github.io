@@ -70,10 +70,10 @@
   type: nested_list
   contents:
     - title: <a href="https://github.com/GAP-ART-RWTH/GAPic">GAPic</a>
-      description:
-      Co-creator, main-developer
+      items:
+      - Co-creator, main-developer
     - title: <a href="https://github.com/schnellecom/SimplicialSurfaces">Simplicial Surfaces</a>
-      description:
+      items:
       - Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser
       - Reworked manual generation from live-generated images to pre-generated ones to reduce initial compile time from >2h to under 3min 
 
