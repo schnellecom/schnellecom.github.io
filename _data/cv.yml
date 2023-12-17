@@ -103,23 +103,24 @@
   type: nested_list
   contents:
     - title: Difficult conversations with employees and mastering conflicts
-      description:
-      RWTH Aachen
+      items:
+      - RWTH Aachen
     - title: Leading in hybrid working environments
-      description:
-      RWTH Aachen
+      items:
+      - RWTH Aachen
     - title: Lateral leadership in projects
-      description:
-      RWTH Aachen
+      items:
+      - RWTH Aachen
     - title: Lateral leadership in projects
-      description:
-      RWTH Aachen
+      items:
+      - RWTH Aachen
     - title: Understanding addiction and how to respond appropriately as a manager
-      description:
-      RWTH Aachen, Short Format
+      items:
+      - RWTH Aachen
+      - Short Format
     - title: Household and economic management Student bodies
-      description:
-      LAT NRW
+      items:
+      - LAT NRW
 
 # - title: Honors and Awards
 #   type: time_table
