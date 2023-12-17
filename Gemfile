@@ -22,3 +22,6 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+# add seo plugin
+gem 'jekyll-seo-tag'
