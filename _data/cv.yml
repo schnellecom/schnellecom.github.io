@@ -57,15 +57,6 @@
     #     - Description 1.
     #     - Description 2.
 
-- title: Open Source Projects
-  type: nested_list
-  contents:
-    - title: <a href="https://github.com/GAP-ART-RWTH/GAPic">GAPic</a>
-      Co-creator, main-developer
-    - title: <a href="https://github.com/schnellecom/SimplicialSurfaces">Simplicial Surfaces</a>
-      - Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser
-      - Reworked manual generation from live-generated images to pre-generated ones to reduce initial compile time from >2h to under 3min 
-
 - title: Research
   type: time_table
   contents:
@@ -75,36 +66,59 @@
         With&#58; Tom Goertzen, Domen Macek, Lukas Schnelle, Meike Weiß, Stefanie Reese, Hagen Holthusen, Alice C. Niemeyer \
         Mechanical Comparison of Arrangement Strategies for Topological Interlocking Assemblies
 
+- title: Open Source Projects
+  type: nested_list
+  contents:
+    - title: <a href="https://github.com/GAP-ART-RWTH/GAPic">GAPic</a>
+      description:
+      Co-creator, main-developer
+    - title: <a href="https://github.com/schnellecom/SimplicialSurfaces">Simplicial Surfaces</a>
+      description:
+      - Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser
+      - Reworked manual generation from live-generated images to pre-generated ones to reduce initial compile time from >2h to under 3min 
+
 - title: Volunteering
   type: time_table
   contents:
     - year: 2019 - Now
+      description:
       Member of the Examination Comitee
     - year: 2021 - 2022
+      description:
       IDEALiStiC Board Member for the RWTH
     - year: 2021 - 2022
+      description:
       Member of the Rektorate Commission on Teaching
     - year: 2021 - 2022
+      description:
       Member of the Constitutional Committee
     - year: 2021 - 2022
+      description:
       Member of the Faculty Council of Faculty 1
     - year: 2020 - 2022
+      description:
       Member of the Teaching Committee of Faculty 1
     
 - title: Professional training
   type: nested_list
   contents:
     - title: Difficult conversations with employees and mastering conflicts
+      description:
       RWTH Aachen
     - title: Leading in hybrid working environments
+      description:
       RWTH Aachen
     - title: Lateral leadership in projects
+      description:
       RWTH Aachen
     - title: Lateral leadership in projects
+      description:
       RWTH Aachen
     - title: Understanding addiction and how to respond appropriately as a manager
+      description:
       RWTH Aachen, Short Format
     - title: Household and economic management Student bodies
+      description:
       LAT NRW
 
 # - title: Honors and Awards
