@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: default
 permalink: /attendances/
 title: attendences
 nav: true
