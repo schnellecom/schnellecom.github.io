@@ -21,7 +21,7 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path: /impressum.html
 # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
-debug:true #set debug mode
+debug: true #set debug mode
 
 # -----------------------------------------------------------------------------
 # Theme
