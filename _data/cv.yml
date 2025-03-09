@@ -9,27 +9,41 @@
 - title: Education
   type: time_table
   contents:
-    - title: working on M.Sc.
+    - title: working on PhD (DE: Dr. rer. nat.)
+        institution: RWTH Aachen University
+        year: from 05/2024
+        description:
+          - Research&#58; topological interlocking and crystallographic groups with applications in lightweight design
+          - Advisor&#58; K.-U. Schröder, A. C. Niemeyer
+    - title: M.Sc.
       institution: RWTH Aachen University
-      year: expected 04/2024
+      year: 04/2024
       description:
         - Research&#58; topological interlocking and crystallographic groups with applications in civil engineering
-        - Advisor&#58; Niemeyer
+        - Advisor&#58; A. C. Niemeyer
         - Minor&#58; Computer Science
     - title: B.Sc.
       institution: RWTH Aachen University
       year: 2021
       description:
         - Title&#58; The Gelfand-Tsetlin Bases, Now and Then
-        - Advisor&#58; Fourier
+        - Advisor&#58; G. Fourier
         - Minor&#58; Computer Science
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Assistant
+        institution: RWTH Aachen, Institute of Structural Mechanics and Lightweight Design
+        year: from 2024
+        # description:
+        #   - Co-Creation and development of the GAPic package
+        #   - Development on the SimplicialSurfaces package
+        #   - Maintenance and development of teaching tools
+        #   - Giving tutorials
+    - title: Graduate Assistant
       institution: RWTH Aachen, Chair of Algebra and Representation Theory
-      year: 2023 - Now
+      year: 2023 - 2024
       description:
         - Co-Creation and development of the GAPic package
         - Development on the SimplicialSurfaces package
@@ -60,11 +74,12 @@
 - title: Research
   type: time_table
   contents:
-    - year: 2023
+    - year: 2025
       items: 
-        (Preprint, Submitted)\
         With&#58; Tom Goertzen, Domen Macek, Lukas Schnelle, Meike Weiß, Stefanie Reese, Hagen Holthusen, Alice C. Niemeyer \
-        Mechanical Comparison of Arrangement Strategies for Topological Interlocking Assemblies
+        Influence of block arrangement on mechanical performance in topological interlocking assemblies: A study of the versatile block \
+        International Journal of Solids and Structures \ 
+        <a href="https://doi.org/10.1016/j.ijsolstr.2024.113102" target="_blank">https://doi.org/10.1016/j.ijsolstr.2024.113102</a>
 
 - title: Open Source Projects
   type: nested_list
@@ -81,7 +96,7 @@
   type: time_table
   contents:
     - title: Member of the Examination Comitee
-      year: 2019 - Now
+      year: 2019 - 2024
       description:
     - title: DEALiStiC Board Member for the RWTH
       year: 2021 - 2022
