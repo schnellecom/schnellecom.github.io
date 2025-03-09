@@ -34,8 +34,8 @@
   type: time_table
   contents:
     - title: Research Assistant
-        institution: RWTH Aachen, Institute of Structural Mechanics and Lightweight Design
-        year: from 2024
+        institution&#58; RWTH Aachen, Institute of Structural Mechanics and Lightweight Design
+        year&#58; from 2024
         # description:
         #   - Co-Creation and development of the GAPic package
         #   - Development on the SimplicialSurfaces package
