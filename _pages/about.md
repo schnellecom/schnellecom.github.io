@@ -6,7 +6,7 @@ subtitle: PhD candidate @RWTH Aachen
 
 profile:
   align: left
-  image: headshot_sla.png
+  image: headshot_sla.jpg
   image_circular: false # crops the image to make it circular
   address: 
 
