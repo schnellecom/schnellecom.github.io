@@ -64,12 +64,6 @@
         - Maintenance and development of teaching tools
         - Technical support for students and members of the chair
         - Giving tutorials
-    # - title: Visiting Professor
-    #   institution: California Institute of Technology, Pasadena, California, US
-    #   year: 1933
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
 
 - title: Research
   type: time_table
@@ -78,7 +72,7 @@
       items: 
         With&#58; Tom Goertzen, Domen Macek, Lukas Schnelle, Meike Weiß, Stefanie Reese, Hagen Holthusen, Alice C. Niemeyer \
         Influence of block arrangement on mechanical performance in topological interlocking assemblies&#58; A study of the versatile block \
-        International Journal of Solids and Structures \ 
+        International Journal of Solids and Structures \
         <a href="https://doi.org/10.1016/j.ijsolstr.2024.113102" target="_blank">https://doi.org/10.1016/j.ijsolstr.2024.113102</a>
 
 - title: Open Source Projects
@@ -90,7 +84,7 @@
     - title: <a href="https://github.com/schnellecom/SimplicialSurfaces">Simplicial Surfaces</a>
       items:
       - Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser
-      - Reworked manual generation from live-generated images to pre-generated ones to reduce initial compile time from >2h to under 3min 
+      - Reworked manual generation from live-generated images to pre-generated ones to reduce initial compile time from >2h to under 3min
 
 - title: Volunteering
   type: time_table
@@ -113,7 +107,7 @@
     - title: Member of the Teaching Committee of Faculty 1
       year: 2020 - 2022
       description:
-    
+
 - title: Professional training
   type: nested_list
   contents:
@@ -137,30 +131,7 @@
       items:
       - LAT NRW
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
-#         - Matteucci Medal
-#     - year: 2029
-#       items: 
-#         - Max Planck Medal
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items: 
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
-
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> 3D Printing, Programming, Houseplants
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> 3D Printing, Programming, Houseplants
