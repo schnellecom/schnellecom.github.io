@@ -19,26 +19,26 @@ jobs:
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
           commitChange: false
           valueFile: "_config.yml"
-          changes: |
-            {
-              "giscus.repo": "${{ github.repository }}",
-              "baseurl": ""
-            }
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade jupyter
+          pip3 install --upgrade nbconvert
+          npm ci
           export JEKYLL_ENV=production
           bundle exec jekyll build
-      - name: Purge unused CSS 🧹
-        run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
+          npm run css:purge
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v1.9.0
         with:
