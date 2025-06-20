@@ -53,5 +53,6 @@ jobs:
           target: amirpourmand/al-folio
           tag: "slim"
 
+
       # Push to the registry
       - run: docker image push amirpourmand/al-folio:slim
