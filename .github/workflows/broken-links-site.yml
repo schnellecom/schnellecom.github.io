@@ -42,7 +42,7 @@ jobs:
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v1.9.0
         with:
-          root: _site # Use the dedicated 'root' input for the action
           fail: true
           # only check local links
-          args: --offline --verbose --no-progress '_site/**/*.html'
+          args: --offline --verbose --no-progress './**/*.html'
+        working-directory: _site

@@ -91,6 +91,11 @@ jobs:
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
+      - name: Debug file content 🐛
+        run: |
+          echo "--- Contents of _data/cv.yml before build ---"
+          cat _data/cv.yml
+          echo "-------------------------------------------"
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
@@ -103,7 +108,7 @@ jobs:
         # Uploads the _site directory as an artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          folder: _site
+          path: _site
 
   # Deployment job
   deploy:
