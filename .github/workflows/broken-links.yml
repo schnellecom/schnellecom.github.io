@@ -65,6 +65,7 @@ jobs:
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v2.1.0
         with:
+          root: _site # Use the dedicated 'root' input for the action
           fail: true
           # Check all HTML files in the generated _site folder
-          args: --user-agent 'curl/7.54' --root _site --verbose --no-progress '_site/**/*.html'
+          args: --user-agent 'curl/7.54' --verbose --no-progress '_site/**/*.html'
