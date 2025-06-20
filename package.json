@@ -1,0 +1,24 @@
+{
+    "name": "al-folio-schnellecom",
+    "version": "0.1.0",
+    "description": "Personal academic site",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/schnellecom/schnellecom.github.io.git"
+    },
+    "author": "Lukas Schnelle",
+    "license": "MIT",
+    "scripts": {
+      "prettier": "prettier --write **/*.{html,js,json,liquid,md,scss,ts,yaml,yml} !package-lock.json",
+      "prettier:check": "prettier --check **/*.{html,js,json,liquid,md,scss,ts,yaml,yml} !package-lock.json",
+      "css:build": "sass _sass/jekyll-theme-al-folio.scss assets/css/jekyll-theme-al-folio.css --style compressed",
+      "css:purge": "purgecss -c purgecss.config.js"
+    },
+    "devDependencies": {
+      "@shopify/prettier-plugin-liquid": "^1.4.0",
+      "prettier": "^3.3.3",
+      "purgecss": "^6.0.0",
+      "sass": "^1.77.8"
+    }
+  }
+  
