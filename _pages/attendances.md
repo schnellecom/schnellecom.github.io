@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cv
 permalink: /attendances/
 title: Attendances
 nav: true
@@ -8,8 +8,11 @@ nav_order: 5
 
 This is a list of things I attended (or will attend if I update frequently).
 
-<details markdown="1"><summary>GAP Days Spring 2024</summary>
+<!-- {% assign attendances = site.data.attendances | sort: 'date' | reverse %}
+{% for item in attendances %}
+<details markdown="1"><summary>{{ item.title }} ({{ item.date | date: "%B %Y" }})</summary>
 
-[link](https://www.gapdays.de/gapdays2024-spring/)
+{{ item.description }}
 
 </details>
+{% endfor %} -->
