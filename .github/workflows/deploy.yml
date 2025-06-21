@@ -125,7 +125,7 @@ jobs:
           pip3 install --upgrade ipython
           npm ci
           export JEKYLL_ENV=production
-          bundle exec jekyll build --trace
+          bundle exec jekyll build --incremental --trace
           npm run css:purge
       - name: Upload artifact 🚀
         # Uploads the _site directory as an artifact
