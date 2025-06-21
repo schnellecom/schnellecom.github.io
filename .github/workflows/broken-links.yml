@@ -41,34 +41,14 @@ on:
 jobs:
   link-checker:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./_site
+    # only run on the main repo
+    if: github.repository == 'alshedivat/al-folio'
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.2.2" # Or match the version in deploy.yml
-          bundler-cache: true
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-          cache: 'npm'
-      - name: Install and Build 🔧
-        run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert
-          npm ci
-          export JEKYLL_ENV=production
-          bundle exec jekyll build
-          npm run css:purge
+      - uses: actions/checkout@v4
+
       - name: Link Checker 🔗
         uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
-          # Check all HTML files in the generated _site folder
-          args: --user-agent 'curl/7.54' --verbose --no-progress './**/*.html'
-        # working-directory: _site
+          # removed md files that include liquid tags
+          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _posts/2023-04-24-videos.md --exclude-path _books/the_godfather.md --verbose --no-progress './**/*.md' './**/*.html'
