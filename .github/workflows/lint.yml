@@ -20,3 +20,7 @@ jobs:
         with:
           python-version: "3.13" # Specify the Python version
       - uses: pre-commit/action@v3.0.1
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "style: auto-fixes from pre-commit"
