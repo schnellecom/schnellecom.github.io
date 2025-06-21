@@ -62,10 +62,10 @@ jobs:
           export JEKYLL_ENV=production
           bundle exec jekyll build
           npm run css:purge
-      - name: Link Checker 🔗
-        uses: lycheeverse/lychee-action@v2.1.0
-        with:
-          fail: true
-          # Check all HTML files in the generated _site folder
-          args: --user-agent 'curl/7.54' --verbose --no-progress './**/*.html'
-        working-directory: _site
+      - name: Link Checker 🔗 # Line 66
+        uses: lycheeverse/lychee-action@v2.1.0 # Line 67
+        with: # Line 68
+          fail: true # Line 69
+          # Check all HTML files in the generated _site folder # Line 70
+          args: --user-agent 'curl/7.54' --verbose --no-progress './**/*.html' # Line 71
+        working-directory: _site # Line 72
