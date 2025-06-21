@@ -1,6 +1,3 @@
-- title: Attended
-  type: time_table
-  contents:
-  - title: "GAP Days Spring 2024"
-    description: " [link](https://www.gapdays.de/gapdays2024-spring/)."
-    year: "2024-05"
+- title: "GAP Days Spring 2024"
+  description: " [link](https://www.gapdays.de/gapdays2024-spring/)."
+  year: "2024-05"
