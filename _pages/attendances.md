@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /attendances/
-title: Attendences
+title: Attendances
 nav: true
 nav_order: 5
 ---
