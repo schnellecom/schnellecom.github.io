@@ -1,0 +1,57 @@
+/* Custom SCSS for Attendances page */
+
+.attendances details {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  border: 1px solid #eee; /* Light border for separation */
+  border-radius: 5px;
+  background-color: #fdfdfd; /* Slightly off-white background */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.attendances details:hover {
+  border-color: #ddd;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.attendances summary {
+  font-weight: 600; /* Bolder text for the summary */
+  font-size: 1.1em; /* Slightly larger font size */
+  color: #333; /* Darker text color */
+  cursor: pointer; /* Indicate it's clickable */
+  padding-bottom: 0.5em; /* Space below the summary text */
+  border-bottom: 1px dashed #eee; /* Dashed line below summary */
+  margin-bottom: 1em; /* Space between summary and content */
+  display: block; /* Ensure it takes full width */
+}
+
+.attendances summary::-webkit-details-marker {
+  display: none; /* Hide default marker for custom styling */
+}
+
+.attendances summary::before {
+  content: '▶'; /* Custom arrow marker */
+  display: inline-block;
+  width: 1em;
+  margin-right: 0.5em;
+  transition: transform 0.3s ease;
+}
+
+.attendances details[open] summary::before {
+  content: '▼'; /* Change arrow direction when open */
+  transform: rotate(0deg); /* Reset rotation if any */
+}
+
+.attendances details[open] summary {
+  border-bottom: 1px solid #ddd; /* Solid border when open */
+}
+
+.attendances details p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1.5em; /* Indent the description */
+  line-height: 1.6;
+  color: #555;
+}
