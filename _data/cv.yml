@@ -11,7 +11,7 @@
   contents:
     - title: candidate for PhD (Dr. rer. nat.)
       institution: RWTH Aachen University
-      year: 2024
+      year: from 2024
       description:
         - "Research: topological interlocking and crystallographic groups with applications in lightweight design"
         - "Advisor: K.-U. Schröder, A. C. Niemeyer"
@@ -35,7 +35,7 @@
   contents:
     - title: Research Assistant
       institution: RWTH Aachen, Institute of Structural Mechanics and Lightweight Design
-      year: 2024
+      year: from 2024
       # description:
       #   - Co-Creation and development of the GAPic package
       #   - Development on the SimplicialSurfaces package
@@ -68,11 +68,13 @@
 - title: Research
   type: time_table
   contents:
-    - year: 2025
+    - title: "Influence of block arrangement on mechanical performance in topological interlocking assemblies: A study of the versatile block"
+      institution: "<em>International Journal of Solids and Structures</em>"
+      year: 2025
       items:
         - "With: Tom Goertzen, Domen Macek, Lukas Schnelle, Meike Weiß, Stefanie Reese, Hagen Holthusen, Alice C. Niemeyer"
-        - "Influence of block arrangement on mechanical performance in topological interlocking assemblies: A study of the versatile block"
-        - "International Journal of Solids and Structures"
+        # - "Influence of block arrangement on mechanical performance in topological interlocking assemblies: A study of the versatile block"
+        # - "International Journal of Solids and Structures"
         - '<a href="https://doi.org/10.1016/j.ijsolstr.2024.113102" target="_blank">https://doi.org/10.1016/j.ijsolstr.2024.113102</a>'
 
 - title: Open Source Projects
