@@ -86,22 +86,22 @@ jobs:
         with:
           node-version: 'lts/*' # Or a specific version if al-folio targets one
           cache: 'npm'
-      - name: Cache Jupyter Notebook Conversions
-        uses: actions/cache@v4
-        with:
-          # The directory to cache.
-          path: _jupyter_cache
-          # The key for the cache. It's based on the hash of your notebook file(s).
-          # If the notebook changes, the hash changes, and the cache is invalidated.
-          key: ${{ runner.os }}-jupyter-${{ hashFiles('**/blog.ipynb') }}
-          # A key to restore from if the exact key isn't found.
-          restore-keys: |
-            ${{ runner.os }}-jupyter-
-      - name: Setup Python 🐍
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.13"
-          cache: "pip" # caching pip dependencies
+      # - name: Cache Jupyter Notebook Conversions
+      #   uses: actions/cache@v4
+      #   with:
+      #     # The directory to cache.
+      #     path: _jupyter_cache
+      #     # The key for the cache. It's based on the hash of your notebook file(s).
+      #     # If the notebook changes, the hash changes, and the cache is invalidated.
+      #     key: ${{ runner.os }}-jupyter-${{ hashFiles('**/blog.ipynb') }}
+      #     # A key to restore from if the exact key isn't found.
+      #     restore-keys: |
+      #       ${{ runner.os }}-jupyter-
+      # - name: Setup Python 🐍
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: "3.13"
+      #     cache: "pip" # caching pip dependencies
       - name: Debug file content 🐛
         run: |
           echo "--- Contents of _data/cv.yml before build ---"
@@ -110,7 +110,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
-          pip3 install --upgrade nbconvert Pygments ipython
+          pip3 install --upgrade ipython
           npm ci
           export JEKYLL_ENV=production
           bundle exec jekyll build --trace
