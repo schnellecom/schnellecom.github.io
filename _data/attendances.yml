@@ -1,8 +1,12 @@
 - title: "GAP Days Spring 2024"
-  description: " <a href='https://www.gapdays.de/gapdays2024-spring/'>link</a>."
+  description: " <a href='https://www.gapdays.de/gapdays2024-spring/' target='_blank'>gapdays.de/gapdays2024-spring/</a>."
   date: "2024-05-01"
   location: Kaiserslautern, Germany
 - title: "GAP Days Summer 2024"
-  description: " <a href='https://www.gapdays.de/gapdays2024-summer/'>link</a>. https://www.gapdays.de/gapdays2024-summer/"
+  description: <a href='https://www.gapdays.de/gapdays2024-summer/' target='_blank'>gapdays.de/gapdays2024-summer/</a>
   date: "2024-08-26"
   location: St. Andrews, Scotland
+- title: "GAP Days Spring 2025"
+  description: <a href='https://www.gapdays.de/gapdays2025-spring/' target='_blank'>gapdays.de/gapdays2025-spring/</a>
+  date: "2025-04-07"
+  location: Brussels, Belgium
