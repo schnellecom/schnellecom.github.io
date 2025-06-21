@@ -2,17 +2,16 @@
 
 /* On mobile devices, make the profile picture smaller */
 @media (max-width: 768px) {
+  /*
+   * Center the profile block itself and remove the float that pushes it
+   * to the side on larger screens. text-align: center will center the image.
+  */
   .profile {
-    /* De-activate the float and add some space around the profile section */
     float: none !important;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem auto; /* 2rem top/bottom, auto left/right for centering */
+    text-align: center;
   }
   .profile img {
-    /* Center the image and make it smaller */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 10rem; /* Adjust size as you like. The theme default is 15rem. */
   }
 }
