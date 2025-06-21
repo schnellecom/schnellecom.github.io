@@ -3,13 +3,12 @@
 /* On mobile devices, make the profile picture smaller */
 @media (max-width: 768px) {
   /*
-   * Center the profile block itself and remove the float that pushes it
-   * to the side on larger screens. text-align: center will center the image.
+   * On mobile, stop floating the profile section and align it to the left.
   */
   .profile {
     float: none !important;
-    margin: 2rem auto; /* 2rem top/bottom, auto left/right for centering */
-    text-align: center;
+    margin: 2rem 0; /* Remove auto horizontal margins */
+    text-align: left; /* Align the image to the left */
   }
   .profile img {
     max-width: 10rem; /* Adjust size as you like. The theme default is 15rem. */
