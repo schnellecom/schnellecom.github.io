@@ -6,129 +6,129 @@
     - name: Languages
       value: English, German (native)
 
-# - title: Education
-#   type: time_table
-#   contents:
-#     - title: candidate for PhD (Dr. rer. nat.)
-#       institution: RWTH Aachen University
-#       year: 2024
-#       description:
-#         - "Research: topological interlocking and crystallographic groups with applications in lightweight design"
-#         - "Advisor: K.-U. Schröder, A. C. Niemeyer"
-#     - title: M.Sc.
-#       institution: RWTH Aachen University
-#       year: 2024
-#       description:
-#         - "Research: topological interlocking and crystallographic groups with applications in civil engineering"
-#         - "Advisor: A. C. Niemeyer"
-#         - "Minor: Computer Science"
-#     - title: B.Sc.
-#       institution: RWTH Aachen University
-#       year: 2021
-#       description:
-#         - "Title: The Gelfand-Tsetlin Bases, Now and Then"
-#         - "Advisor: G. Fourier"
-#         - "Minor: Computer Science"
+- title: Education
+  type: time_table
+  contents:
+    - title: candidate for PhD (Dr. rer. nat.)
+      institution: RWTH Aachen University
+      year: 2024
+      description:
+        - "Research: topological interlocking and crystallographic groups with applications in lightweight design"
+        - "Advisor: K.-U. Schröder, A. C. Niemeyer"
+    - title: M.Sc.
+      institution: RWTH Aachen University
+      year: 2024
+      description:
+        - "Research: topological interlocking and crystallographic groups with applications in civil engineering"
+        - "Advisor: A. C. Niemeyer"
+        - "Minor: Computer Science"
+    - title: B.Sc.
+      institution: RWTH Aachen University
+      year: 2021
+      description:
+        - "Title: The Gelfand-Tsetlin Bases, Now and Then"
+        - "Advisor: G. Fourier"
+        - "Minor: Computer Science"
 
-# - title: Experience
-#   type: time_table
-#   contents:
-#     - title: Research Assistant
-#       institution: RWTH Aachen, Institute of Structural Mechanics and Lightweight Design
-#       year: 2024
-#       # description:
-#       #   - Co-Creation and development of the GAPic package
-#       #   - Development on the SimplicialSurfaces package
-#       #   - Maintenance and development of teaching tools
-#       #   - Giving tutorials
-#     - title: Graduate Assistant
-#       institution: RWTH Aachen, Chair of Algebra and Representation Theory
-#       year: 2023 - 2024
-#       description:
-#         - Co-Creation and development of the GAPic package
-#         - Development on the SimplicialSurfaces package
-#         - Maintenance and development of teaching tools
-#         - Giving tutorials
-#     - title: Head of Department, Vice Chairperson
-#       institution: AStA of RWTH Aachen
-#       year: 2021 - 2022
-#       description:
-#         Department for Education and University Communication (Elected office)
-#         - Leading team of 12 volunteers and co-leading five employees
-#         - Co-Organizing and attending international conferences
-#         - Responsibility for executing financial transactions
-#     - title: Student Assistant
-#       institution: RWTH Aachen, Chair of Algebra and Representation Theory
-#       year: 2019 - 2023
-#       description:
-#         - Maintenance and development of teaching tools
-#         - Technical support for students and members of the chair
-#         - Giving tutorials
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: RWTH Aachen, Institute of Structural Mechanics and Lightweight Design
+      year: 2024
+      # description:
+      #   - Co-Creation and development of the GAPic package
+      #   - Development on the SimplicialSurfaces package
+      #   - Maintenance and development of teaching tools
+      #   - Giving tutorials
+    - title: Graduate Assistant
+      institution: RWTH Aachen, Chair of Algebra and Representation Theory
+      year: 2023 - 2024
+      description:
+        - Co-Creation and development of the GAPic package
+        - Development on the SimplicialSurfaces package
+        - Maintenance and development of teaching tools
+        - Giving tutorials
+    - title: Head of Department, Vice Chairperson
+      institution: AStA of RWTH Aachen
+      year: 2021 - 2022
+      description:
+        Department for Education and University Communication (Elected office)
+        - Leading team of 12 volunteers and co-leading five employees
+        - Co-Organizing and attending international conferences
+        - Responsibility for executing financial transactions
+    - title: Student Assistant
+      institution: RWTH Aachen, Chair of Algebra and Representation Theory
+      year: 2019 - 2023
+      description:
+        - Maintenance and development of teaching tools
+        - Technical support for students and members of the chair
+        - Giving tutorials
 
-# - title: Research
-#   type: time_table
-#   contents:
-#     - year: 2025
-#       items:
-#         - "With: Tom Goertzen, Domen Macek, Lukas Schnelle, Meike Weiß, Stefanie Reese, Hagen Holthusen, Alice C. Niemeyer"
-#         - "Influence of block arrangement on mechanical performance in topological interlocking assemblies: A study of the versatile block"
-#         - "International Journal of Solids and Structures"
-#         - '<a href="https://doi.org/10.1016/j.ijsolstr.2024.113102" target="_blank">https://doi.org/10.1016/j.ijsolstr.2024.113102</a>'
+- title: Research
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - "With: Tom Goertzen, Domen Macek, Lukas Schnelle, Meike Weiß, Stefanie Reese, Hagen Holthusen, Alice C. Niemeyer"
+        - "Influence of block arrangement on mechanical performance in topological interlocking assemblies: A study of the versatile block"
+        - "International Journal of Solids and Structures"
+        - '<a href="https://doi.org/10.1016/j.ijsolstr.2024.113102" target="_blank">https://doi.org/10.1016/j.ijsolstr.2024.113102</a>'
 
-# - title: Open Source Projects
-#   type: nested_list
-#   contents:
-#     - title: <a href="https://github.com/GAP-ART-RWTH/GAPic" target="_blank">GAPic</a>
-#       items:
-#       - Co-creator, main-developer
-#     - title: <a href="https://github.com/schnellecom/SimplicialSurfaces" target="_blank">Simplicial Surfaces</a>
-#       items:
-#       - Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser
-#       - Reworked manual generation from live-generated images to pre-generated ones to reduce initial compile time from >2h to under 3min
+- title: Open Source Projects
+  type: nested_list
+  contents:
+    - title: <a href="https://github.com/GAP-ART-RWTH/GAPic" target="_blank">GAPic</a>
+      items:
+      - Co-creator, main-developer
+    - title: <a href="https://github.com/schnellecom/SimplicialSurfaces" target="_blank">Simplicial Surfaces</a>
+      items:
+      - Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser
+      - Reworked manual generation from live-generated images to pre-generated ones to reduce initial compile time from >2h to under 3min
 
-# - title: Volunteering
-#   type: time_table
-#   contents:
-#     - title: Member of the Examination Comitee
-#       year: 2019 - 2024
-#       description:
-#     - title: DEALiStiC Board Member for the RWTH
-#       year: 2021 - 2022
-#       description:
-#     - title: Member of the Rektorate Commission on Teaching
-#       year: 2021 - 2022
-#       description:
-#     - title: Member of the Constitutional Committee
-#       year: 2021 - 2022
-#       description:
-#     - title: Member of the Faculty Council of Faculty 1
-#       year: 2021 - 2022
-#       description:
-#     - title: Member of the Teaching Committee of Faculty 1
-#       year: 2020 - 2022
-#       description:
+- title: Volunteering
+  type: time_table
+  contents:
+    - title: Member of the Examination Comitee
+      year: 2019 - 2024
+      description:
+    - title: DEALiStiC Board Member for the RWTH
+      year: 2021 - 2022
+      description:
+    - title: Member of the Rektorate Commission on Teaching
+      year: 2021 - 2022
+      description:
+    - title: Member of the Constitutional Committee
+      year: 2021 - 2022
+      description:
+    - title: Member of the Faculty Council of Faculty 1
+      year: 2021 - 2022
+      description:
+    - title: Member of the Teaching Committee of Faculty 1
+      year: 2020 - 2022
+      description:
 
-# - title: Professional training
-#   type: nested_list
-#   contents:
-#     - title: Difficult conversations with employees and mastering conflicts
-#       items:
-#       - RWTH Aachen
-#     - title: Leading in hybrid working environments
-#       items:
-#       - RWTH Aachen
-#     - title: Lateral leadership in projects
-#       items:
-#       - RWTH Aachen
-#     - title: Understanding addiction and how to respond appropriately as a manager
-#       items:
-#       - RWTH Aachen
-#       - Short Format
-#     - title: Household and economic management Student bodies
-#       items:
-#       - LAT NRW
+- title: Professional training
+  type: nested_list
+  contents:
+    - title: Difficult conversations with employees and mastering conflicts
+      items:
+      - RWTH Aachen
+    - title: Leading in hybrid working environments
+      items:
+      - RWTH Aachen
+    - title: Lateral leadership in projects
+      items:
+      - RWTH Aachen
+    - title: Understanding addiction and how to respond appropriately as a manager
+      items:
+      - RWTH Aachen
+      - Short Format
+    - title: Household and economic management Student bodies
+      items:
+      - LAT NRW
 
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - "<u>Hobbies:</u> 3D Printing, Programming, Houseplants"
+- title: Other Interests
+  type: list
+  contents:
+    - "<u>Hobbies:</u> 3D Printing, Programming, Houseplants"
