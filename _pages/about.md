@@ -7,6 +7,7 @@ subtitle: PhD candidate @RWTH Aachen
 profile:
   align: left
   image: headshot_sla.jpg
+  image_alt: "Headshot of Lukas Schnelle"
   image_circular: false # crops the image to make it circular
   address: 
 
