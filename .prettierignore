@@ -11,6 +11,12 @@ _sass/
 assets/**/*.min.css
 assets/**/*.min.js
 
+# Ignore specific third-party/external CSS and JS files
+assets/css/jupyter-grade3.css
+assets/css/jupyter-monokai.css
+assets/js/distillpub/
+assets/js/highlight-search-term.js
+
 # Ignore auto-generated or external config files
 package-lock.json
 _config.yml
