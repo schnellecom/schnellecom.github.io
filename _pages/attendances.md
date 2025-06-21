@@ -6,9 +6,9 @@ nav: true
 nav_order: 5
 ---
 
-# This is a list of things I attended (or will attend if I update frequently).
+This is a list of things I attended (or will attend if I update frequently).
 
-<details><summary>GAP Days Spring 2024</summary>
+<details markdown="1"><summary>GAP Days Spring 2024</summary>
 
 [link](https://www.gapdays.de/gapdays2024-spring/)
 
