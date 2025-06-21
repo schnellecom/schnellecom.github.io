@@ -1,0 +1,16 @@
+---
+layout: page
+---
+<div class="attendances">
+  {{ content }}
+
+  {% assign attendances = site.data.attendances | sort: 'date' | reverse %}
+  {% for item in attendances %}
+  <details markdown="1">
+<summary>{{ item.title }} ({{ item.date | date: "%B %Y" }})</summary>
+
+{{ item.description }}
+
+  </details>
+  {% endfor %}
+</div>
