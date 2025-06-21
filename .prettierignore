@@ -6,3 +6,18 @@ _pages/
 _projects/
 _news/
 _sass/
+
+# Ignore minified assets
+assets/**/*.min.css
+assets/**/*.min.js
+
+# Ignore auto-generated or external config files
+package-lock.json
+_config.yml
+_data/
+.all-contributorsrc
+.github/
+.pre-commit-config.yaml
+blog/index.html
+404.html
+assets/plotly/demo.html
