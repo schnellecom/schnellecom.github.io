@@ -1,2 +1,8 @@
 _scripts/search.liquid.js
 assets/css/main.scss
+_includes/
+_layouts/
+_pages/
+_projects/
+_news/
+_sass/
