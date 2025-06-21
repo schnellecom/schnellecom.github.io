@@ -60,3 +60,9 @@
     color: var(--global-card-bg-color)!important;
     background-color: var(--global-theme-color)!important
 }
+
+.location-badge {
+    background-color: var(--global-divider-color);
+    color: var(--global-text-color) !important;
+    margin-left: 10px;
+  }
