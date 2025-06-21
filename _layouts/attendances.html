@@ -4,15 +4,18 @@ layout: page
 <div class="attendances">
   {{ content }}
 
-  {% assign attendances = site.data.attendances | sort: 'date' | reverse %}
-  {% for item in attendances %}
-  <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
-    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
-      {{ item.date }}
-    </span>
-  </div>
-  <details markdown="1">
-<summary>{{ item.title }} ({{ item.date | date: "%B %Y" }})</summary>
+{% assign attendances = site.data.attendances | sort: 'date' | reverse %}
+{% for item in attendances %}
+<details markdown="1">
+<summary>
+  <span class="badge font-weight-bold date-badge text-uppercase align-middle" style="min-width: 75px; margin-right: 10px;">
+      {{ item.date | date: "%B %Y" }}
+  </span>
+  {% if item.location %}
+    <span class="badge font-weight-normal location-badge text-uppercase align-middle">{{ item.location }}</span>
+  {% endif %}
+  {{ item.title }}
+</summary>
 
 {{ item.description }}
 
