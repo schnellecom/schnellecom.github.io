@@ -76,6 +76,18 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+      - name: Cache Sass and Jekyll
+        uses: actions/cache@v4
+        with:
+          # The directory to cache
+          path: .jekyll-cache
+          # The key for the cache. It's based on the hash of your Gemfile.lock
+          # and all of your .scss files. If any of them change, the cache
+          # is invalidated and the CSS is recompiled.
+          key: ${{ runner.os }}-jekyll-sass-${{ hashFiles('**/Gemfile.lock', '**/*.scss') }}
+          # A key to restore from if the exact key isn't found
+          restore-keys: |
+            ${{ runner.os }}-jekyll-sass-
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
