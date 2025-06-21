@@ -13,7 +13,6 @@ layout: page
   <span class="badge font-weight-bold date-badge text-uppercase align-middle" style="min-width: 75px; margin-right: 10px;">
       {{ item.date | date: "%B %Y" }}
   </span> 
-  {% if item.location %} <span class="badge font-weight-normal location-badge text-uppercase align-middle"><i class="ti ti-map-pin"></i> {{ item.location }}</span>{% endif %}
   {% if item.location %}
     <span class="badge font-weight-normal location-badge text-uppercase align-middle"><i class="ti ti-map-pin"></i> {{ item.location }}</span>
   {% endif %}
