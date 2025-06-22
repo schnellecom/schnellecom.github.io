@@ -13,13 +13,14 @@
       institution: RWTH Aachen University
       year: from 2024
       description:
-        - "Research: topological interlocking and crystallographic groups with applications in lightweight design"
+        - "Research: topological interlocking and crystallographic groups with applications in lightweighting"
         - "Advisor: K.-U. Schröder, A. C. Niemeyer"
     - title: M.Sc.
       institution: RWTH Aachen University
       year: 2024
       description:
-        - "Research: topological interlocking and crystallographic groups with applications in civil engineering"
+        - "Title: Topological Interlocking and Three-Dimensional Crystallographic Groups"
+        - "Research: Topological interlocking and crystallographic groups with applications in civil engineering"
         - "Advisor: A. C. Niemeyer"
         - "Minor: Computer Science"
     - title: B.Sc.
@@ -133,4 +134,4 @@
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies:</u> 3D Printing, Programming, Houseplants"
+    - "<u>Hobbies:</u> 3D Printing, Houseplants"
