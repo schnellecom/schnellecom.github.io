@@ -896,7 +896,7 @@
 
   function link_string(ent) {
     let linkUrl = null;
-    if ("url" in ent) {
+    if ("url" in ent && ent.url) { // Check if url exists and is not empty
       linkUrl = ent.url;
     } else if ("preprint" in ent) {
       linkUrl = ent.preprint;
