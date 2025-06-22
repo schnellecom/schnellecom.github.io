@@ -15,8 +15,12 @@
   }
 
   /* Publications preview image on mobile */
+  .publications .preview {
+    max-width: 10rem;
+    margin: 0 auto 1rem auto;
+  }
   .publications .preview img {
-    max-width: 100%;
     height: auto; /* Ensure aspect ratio is maintained */
+    width: 100%;
   }
 }
