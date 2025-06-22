@@ -13,4 +13,10 @@
   .profile img {
     max-width: 10rem; /* Adjust size as you like. The theme default is 15rem. */
   }
+
+  /* Publications preview image on mobile */
+  .publications .preview img {
+    max-width: 100%;
+    height: auto; /* Ensure aspect ratio is maintained */
+  }
 }
