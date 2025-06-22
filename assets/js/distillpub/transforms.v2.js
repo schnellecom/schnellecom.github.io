@@ -895,22 +895,27 @@
   }
 
   function link_string(ent) {
+    let linkUrl = null;
     if ("url" in ent) {
-      var url = ent.url;
-      var arxiv_match = /arxiv\.org\/abs\/([0-9\.]*)/.exec(url);
+      linkUrl = ent.url;
+    } else if ("preprint" in ent) {
+      linkUrl = ent.preprint;
+    }
+
+    if (linkUrl) {
+      var arxiv_match = /arxiv\.org\/abs\/([0-9\.]*)/.exec(linkUrl);
       if (arxiv_match != null) {
-        url = `http://arxiv.org/pdf/${arxiv_match[1]}.pdf`;
+        linkUrl = `http://arxiv.org/pdf/${arxiv_match[1]}.pdf`;
       }
 
-      if (url.slice(-4) == ".pdf") {
+      var label = "link";
+      if (linkUrl.slice(-4) == ".pdf") {
         var label = "PDF";
-      } else if (url.slice(-5) == ".html") {
+      } else if (linkUrl.slice(-5) == ".html") {
         var label = "HTML";
       }
-      return ` &ensp;<a href="${url}">[${label || "link"}]</a>`;
-    } /* else if ("doi" in ent){
-      return ` &ensp;<a href="https://doi.org/${ent.doi}" >[DOI]</a>`;
-    }*/ else {
+      return ` &ensp;<a href="${linkUrl}">[${label}]</a>`;
+    } else {
       return "";
     }
   }
