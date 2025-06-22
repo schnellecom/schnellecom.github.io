@@ -10,18 +10,62 @@
     margin: 2rem 0; /* Remove auto horizontal margins */
     text-align: left; /* Align the image to the left */
   }
+
   .profile img {
     max-width: 10rem; /* Adjust size as you like. The theme default is 15rem. */
   }
 
   /* Publications preview image on mobile */
+  .publications .row {
+    display: flex; /* Use flexbox for the row on mobile */
+    align-items: flex-start; /* Align items to the top */
+    /* Remove default Bootstrap padding/margins if they interfere */
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .publications .preview {
-    float: left; /* Float the image container to the left */
+    /* No float needed with flexbox */
     max-width: 5rem; /* Keep a reasonable max-width for the image */
     margin: 0 1rem 1rem 0; /* Add right and bottom margin for spacing */
   }
   .publications .preview img {
     height: auto; /* Ensure aspect ratio is maintained */
     width: 100%;
+  }
+
+  /* Adjust Bootstrap column behavior for flexbox */
+  .publications .col-sm-3,
+  .publications .col-md-2,
+  .publications .col-xl-2 {
+    flex-basis: auto; /* Allow content to determine initial size */
+    flex-grow: 0; /* Prevent image column from growing */
+    flex-shrink: 0; /* Prevent image column from shrinking */
+    padding-left: 0; /* Remove Bootstrap padding */
+    padding-right: 0; /* Remove Bootstrap padding */
+  }
+
+  .publications .col-sm-9,
+  .publications .col-md-10,
+  .publications .col-xl-10 {
+    flex-basis: auto; /* Allow content to determine initial size */
+    flex-grow: 1; /* Allow text column to grow and take remaining space */
+    min-width: 0; /* Allow content to shrink if needed */
+    padding-left: 0; /* Remove Bootstrap padding */
+    padding-right: 0; /* Remove Bootstrap padding */
+  }
+
+  /* Ensure text elements stack within their column */
+  .publications .col-sm-9 .title,
+  .publications .col-sm-9 .author,
+  .publications .col-sm-9 .periodical,
+  .publications .col-md-10 .title,
+  .publications .col-md-10 .author,
+  .publications .col-md-10 .periodical,
+  .publications .col-xl-10 .title,
+  .publications .col-xl-10 .author,
+  .publications .col-xl-10 .periodical {
+    display: block; /* Ensure they are block-level to stack */
+    /* No specific width needed, they will fill their flex container */
   }
 }
