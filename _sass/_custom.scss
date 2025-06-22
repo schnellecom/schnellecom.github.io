@@ -17,56 +17,27 @@
 
   /* Publications preview image on mobile */
   .publications .row {
-    display: flex; /* Use flexbox for the row on mobile */
-    flex-wrap: nowrap; /* Ensure items don't wrap to a new line */
+    display: flex; /* Ensure flexbox is applied to the row */
+    flex-wrap: nowrap; /* Keep image and text on the same line */
     align-items: flex-start; /* Align items to the top */
-    /* Remove default Bootstrap padding/margins if they interfere */
-    margin-left: 0;
-    margin-right: 0;
+    gap: 1rem; /* Add space between image and text */
+    margin-bottom: 1.5rem; /* Space between publication entries */
   }
 
   .publications .preview {
-    /* No float needed with flexbox */
-    max-width: 5rem; /* Keep a reasonable max-width for the image */
-    margin: 0 1rem 1rem 0; /* Add right and bottom margin for spacing */
+    flex: 0 0 5rem; /* Fixed width for the image column */
+    max-width: 5rem; /* Ensure it doesn't exceed this width */
+    padding: 0; /* Remove default Bootstrap padding */
   }
   .publications .preview img {
     height: auto; /* Ensure aspect ratio is maintained */
     width: 100%;
   }
 
-  /* Adjust Bootstrap column behavior for flexbox */
-  .publications .col-sm-3, /* Image column */
-  .publications .col-md-2, /* Image column */
-  .publications .col-xl-2 { /* Image column */
-    flex-basis: 5rem; /* Explicitly set width for image column */
-    flex-grow: 0;
-    flex-shrink: 0;
-    padding-left: 0; /* Remove Bootstrap padding */
-    padding-right: 0; /* Remove Bootstrap padding */
-  }
-
-  .publications .col-sm-9,
-  .publications .col-md-10,
-  .publications .col-xl-10 { /* Text column */
-    flex-basis: 0; /* Start with 0 basis, let it grow */
-    flex-grow: 1; /* Allow text column to grow and take remaining space */
-    min-width: 0; /* Allow content to shrink if needed */
-    padding-left: 0; /* Remove Bootstrap padding */
-    padding-right: 0; /* Remove Bootstrap padding */
-  }
-
-  /* Ensure text elements stack within their column */
-  .publications .col-sm-9 .title,
-  .publications .col-sm-9 .author,
-  .publications .col-sm-9 .periodical,
-  .publications .col-md-10 .title,
-  .publications .col-md-10 .author,
-  .publications .col-md-10 .periodical,
-  .publications .col-xl-10 .title,
-  .publications .col-xl-10 .author,
-  .publications .col-xl-10 .periodical {
-    display: block; /* Ensure they are block-level to stack */
-    /* No specific width needed, they will fill their flex container */
+  .publications .col-sm-9 {
+    flex-basis: 0; /* Allow text column to grow from zero */
+    flex-grow: 1; /* Take up remaining space */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    padding: 0; /* Remove default Bootstrap padding */
   }
 }
