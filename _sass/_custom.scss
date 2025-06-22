@@ -15,31 +15,26 @@
     max-width: 10rem; /* Adjust size as you like. The theme default is 15rem. */
   }
 
-  /* Publications preview image on mobile */
-  .publications .row { /* Target the row containing the image and text */
-    display: flex;
-    flex-wrap: nowrap; /* Prevent wrapping to a new line */
-    align-items: flex-start; /* Align items to the top */
-    gap: 1rem; /* Space between the image and text columns */
-    margin-bottom: 1.5rem; /* Space between publication entries */
+  /* Publications preview image on mobile.
+     We override Bootstrap's flexbox grid and use a simple float
+     for a more robust layout on small screens. */
+  .publications .row {
+    display: block; /* Disable flexbox for this row */
+    margin-bottom: 1.5rem;
+  }
+  .publications .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 
-  .publications .preview { /* Target the image container */
-    flex: 0 0 5rem; /* Do not grow, do not shrink, base width 5rem */
-    max-width: 5rem; /* Ensure it doesn't exceed 5rem */
-    padding: 0; /* Remove Bootstrap's default padding */
+  .publications .preview {
+    float: left;
+    width: 5rem;
+    margin-right: 1rem; /* Space between image and text */
   }
   .publications .preview img {
-    display: block; /* Ensure the image is a block element */
     width: 100%; /* Make image fill its container */
     height: auto; /* Maintain aspect ratio */
-  }
-
-  .publications .col-sm-9 { /* Target the text content container */
-    flex-grow: 1; /* Allow text column to take up remaining space */
-    flex-shrink: 1; /* Allow text column to shrink if needed */
-    flex-basis: auto; /* Let content determine initial size, then grow */
-    min-width: 0; /* Allow content to shrink below its intrinsic size */
-    padding: 0; /* Remove Bootstrap's default padding */
   }
 }
