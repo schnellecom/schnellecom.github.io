@@ -15,7 +15,18 @@ layout: default
   </header>
 
   <article>
-    {{ content }}
+    {%- if page.collection == 'projects' and page.img -%}
+      <div class="float-sm-right ml-sm-3 mb-3" style="max-width: 150px;">
+        {%
+          include figure.liquid
+          path=page.img
+          class="img-fluid rounded z-depth-1"
+          alt=page.title
+        %}
+      </div>
+    {%- endif -%}
+
+    <div class="clearfix">{{ content }}</div>
   </article>
 
   {% if page.related_publications %}

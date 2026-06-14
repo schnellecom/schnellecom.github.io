@@ -17,14 +17,14 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico
 
 url: https://lukasschnelle.de # the base hostname & protocol for your site
-baseurl:  / # the subpath of your site, e.g. /blog/
+baseurl:  "" # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: /impressum.html
 # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 debug: false #set debug mode
 
-incremental: true
+incremental: false
 
 
 # -----------------------------------------------------------------------------

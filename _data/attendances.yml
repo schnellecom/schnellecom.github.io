@@ -1,20 +1,36 @@
 - title: "GAP Days Spring 2024"
-  description: " <a href='https://www.gapdays.de/gapdays2024-spring/' target='_blank'>gapdays.de/gapdays2024-spring/</a>."
+  description: "<a href='https://www.gapdays.de/gapdays2024-spring/' target='_blank'>gapdays.de/gapdays2024-spring/</a>. <br>Held a talk about the `GAPic` package and helped organising the conference"
   date: "2024-05-01"
   location: Kaiserslautern, Germany
 - title: "GAP Days Summer 2024"
-  description: <a href='https://www.gapdays.de/gapdays2024-summer/' target='_blank'>gapdays.de/gapdays2024-summer/</a>
+  description: "<a href='https://www.gapdays.de/gapdays2024-summer/' target='_blank'>gapdays.de/gapdays2024-summer/</a><br>Worked on the GAP website itself and SimplicialSurfaces package"
   date: "2024-08-26"
   location: St. Andrews, Scotland
 - title: "GAP Days Spring 2025"
-  description: <a href='https://www.gapdays.de/gapdays2025-spring/' target='_blank'>gapdays.de/gapdays2025-spring/</a>
+  description: "<a href='https://www.gapdays.de/gapdays2025-spring/' target='_blank'>gapdays.de/gapdays2025-spring/</a><br>Worked on the CrystFundDom package"
   date: "2025-04-07"
   location: Brussels, Belgium
 - title: "Grueppchen 2025"
   date: "2025-03-28"
   location: Kiel, Germany
-  description: "<a href='https://www2.mathematik.uni-halle.de/waldecker/index_nach.html' target='_blank'>www2.mathematik.uni-halle.de/waldecker/index_nach.html</a>"
+  description: "<a href='https://www2.mathematik.uni-halle.de/waldecker/index_nach.html' target='_blank'>www2.mathematik.uni-halle.de/waldecker/index_nach.html</a><br>Held a talk about the ongoing collaborative work bridging group theory and structural engineering"
 - title: "CIRP Design 2025"
   date: "2025-04-02"
   location: Patras, Greece
-  description: "<a href='https://cirpdesign2025.upatras.gr/' target='_blank'>cirpdesign2025.upatras.gr</a>"
+  description: "<a href='https://cirpdesign2025.upatras.gr/' target='_blank'>cirpdesign2025.upatras.gr</a><br>Presented paper discussing the central thesis of A09 in <a href='/projects/5_project/'>TRR188</a>."
+- title: "HackMining 2025"
+  date: "2025-01-10"
+  location: Aachen, Germany
+  description: "<a href='https://www.amt.rwth-aachen.de/hackmining' target='_blank'>amt.rwth-aachen.de/hackmining</a><br>3. Place, Worked on the challenge of Innomotics as part of team \"GoldDiggers\""
+- title: "HackMining 2026"
+  date: "2026-04-24"
+  location: Aachen, Germany
+  description: "<a href='https://www.amt.rwth-aachen.de/hackmining' target='_blank'>amt.rwth-aachen.de/hackmining</a><br>2. Place, Worked on the challenge of SICK as part of team \"GoldDiggers\""
+- title: "GAP Days Summer 2025"
+  description: "<a href='https://www.gapdays.de/gapdays2025-summer/' target='_blank'>gapdays.de/gapdays2025-summer/</a>. <br>Held the introductory workshop for newcomers and worked on the `SimplicialSurfaces package"
+  date: "2025-08-25"
+  location: Koper, Slovenia
+- title: "GAP Days Spring 2026"
+  description: "<a href='https://www.gapdays.de/gapdays2026-spring/' target='_blank'>gapdays.de/gapdays2026-spring/</a>. <br>Held a talk about the future of visualisations in GAP and worked on the results of that."
+  date: "2026-05-28"
+  location: Porto, Portugal
