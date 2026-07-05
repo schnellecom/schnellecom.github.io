@@ -78,6 +78,14 @@
         # - "International Journal of Solids and Structures"
         - '<a href="https://doi.org/10.1016/j.ijsolstr.2024.113102" target="_blank">https://doi.org/10.1016/j.ijsolstr.2024.113102</a>'
 
+- title: Awards
+  type: time_table
+  contents:
+    - title: Best Paper Award
+      institution: SFB/TRR 280
+      year: 2026
+      description: "For the paper: Influence of block arrangement on mechanical performance in topological interlocking assemblies: A study of the versatile block"
+
 - title: Open Source Projects
   type: nested_list
   contents:
