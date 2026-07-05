@@ -286,6 +286,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
+future: true
+
 scholar:
   last_name: [Schnelle]
   first_name: [Lukas, L.] # Add initials if you sometimes use them in publications
