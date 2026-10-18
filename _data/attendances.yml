@@ -1,9 +1,9 @@
 - title: "GAP Days Spring 2024"
   description: "<a href='https://www.gapdays.de/gapdays2024-spring/' target='_blank'>gapdays.de/gapdays2024-spring/</a><br>Held a talk about the <code>GAPic</code> package and helped organize the conference."
-  date: "2024-05-01"
+  date: "2024-03-11"
   location: Kaiserslautern, Germany
 - title: "GAP Days Summer 2024"
-  description: "<a href='https://www.gapdays.de/gapdays2024-summer/' target='_blank'>gapdays.de/gapdays2024-summer/</a><br>Worked on the GAP website itself and the <code>SimplicialSurfaces</code> package."
+  description: "<a href='https://www.gapdays.de/gapdays2024-summer/' target='_blank'>gapdays.de/gapdays2024-summer/</a><br>Held a talk titled <a href='https://www.gapdays.de/gapdays2024-summer/abstracts/schnelle' target='_blank'><em>\"Usage of GAP in Topological Interlocking Research\"</em></a> and worked on the GAP website itself and the <code>SimplicialSurfaces</code> package."
   date: "2024-08-26"
   location: St. Andrews, Scotland
 - title: "GAP Days Spring 2025"
@@ -32,5 +32,21 @@
   location: Koper, Slovenia
 - title: "GAP Days Spring 2026"
   description: "<a href='https://www.gapdays.de/gapdays2026-spring/' target='_blank'>gapdays.de/gapdays2026-spring/</a><br>Held a talk about the future of visualizations in GAP and worked on its implementation."
-  date: "2026-05-28"
+  date: "2026-05-04"
   location: Porto, Portugal
+- title: "CIRP Design 2026"
+  date: "2026-03-16"
+  location: Tokyo, Japan
+  description: "<a href='https://cirp-design2026.jspe.or.jp/' target='_blank'>cirp-design2026.jspe.or.jp</a><br>Presented two <em>Procedia CIRP</em> papers: a probabilistic study quantifying how geometric variance impacts the performance of formed airbag pressure bins (<a href='/projects/sfb-trr-188/'>TRR 188</a>, A09) and a numerical parameter study on how a generative design parameter influences the mechanical performance of hexagonal topological interlocking assemblies (<a href='/projects/sfb-trr-280/'>SFB/TRR 280</a>, A04)."
+- title: "GMI 2026"
+  date: "2026-08-31"
+  location: Potsdam, Germany
+  description: "<a href='https://gmi2026.math.uni-potsdam.de/' target='_blank'>gmi2026.math.uni-potsdam.de</a><br>Presented a poster titled <em>\"Topological interlocking assemblies: From crystallographic groups to interdisciplinary applications\"</em> and co-authored a second poster titled <em>\"Benefits of modular design for mycelium-based composites based on topological interlocking assemblies\"</em> as part of a separate collaboration for an upcoming preprint."
+- title: "DLRK 2026"
+  date: "2026-09-08"
+  location: Aachen, Germany
+  description: "<a href='https://dlrk2026.dglr.de/' target='_blank'>dlrk2026.dglr.de</a><br>Co-organized our own session <em>\"Civitas Lunaris\"</em>, co-authored the talk <a href='https://dlrk2026.dglr.de/fileadmin/dglr_cfp/68/DLRK2026_680438_abstr.pdf' target='_blank'><em>\"What Do We Build First? The Initial Infrastructure of a Lunar Base\"</em></a>, and presented the talk <a href='https://dlrk2026.dglr.de/fileadmin/dglr_cfp/68/DLRK2026_680439_abstr.pdf' target='_blank'><em>\"Design considerations and challenges of a lunar habitat based on a topological interlocking assembly\"</em></a>."
+- title: "GAP Days Fall 2026"
+  description: "<a href='https://www.gapdays.de/gapdays2026-fall/' target='_blank'>gapdays.de/gapdays2026-fall/</a><br>Co-organized the workshop as one of the local organizers and worked on the new GAP visualization package."
+  date: "2026-09-28"
+  location: Aachen, Germany
