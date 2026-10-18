@@ -81,6 +81,12 @@
 - title: Awards
   type: time_table
   contents:
+    - title: GAP Excellence Award
+      institution: GAP Council
+      year: 2026
+      description:
+        - '"In recognition of their outstanding contributions to the computer algebra system GAP, which demonstrate the highest standard of professionalism"'
+        - '<a href="https://www.gap-system.org/award/" target="_blank">https://www.gap-system.org/award/</a>'
     - title: Best Paper Award
       institution: SFB/TRR 280
       year: 2026
