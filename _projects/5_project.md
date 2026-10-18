@@ -1,6 +1,7 @@
 ---
 layout: page
 title: SFB/TRR 188
+permalink: /projects/sfb-trr-188/
 description: DFG Collaborative Research Centre
 img: assets/img/logo_TRR188.png
 importance: 1

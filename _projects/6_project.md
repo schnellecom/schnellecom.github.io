@@ -1,6 +1,7 @@
 ---
 layout: page
 title: CrystFundDom
+permalink: /projects/crystfunddom/
 description: GAP Package
 img: assets/img/fund-dom.png
 importance: 1

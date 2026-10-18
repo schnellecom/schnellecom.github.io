@@ -9,11 +9,11 @@
 - title: Education
   type: time_table
   contents:
-    - title: candidate for PhD (Dr. rer. nat.)
+    - title: Candidate for PhD (Dr. rer. nat.)
       institution: RWTH Aachen University
       year: from 2024
       description:
-        - "Research: topological interlocking and crystallographic groups with applications in lightweighting"
+        - "Research: Topological interlocking and crystallographic groups with applications in lightweight design"
         - "Advisor: K.-U. Schröder, A. C. Niemeyer"
     - title: M.Sc.
       institution: RWTH Aachen University
@@ -35,7 +35,7 @@
   type: time_table
   contents:
     - title: Research Assistant
-      institution: RWTH Aachen, Institute of Structural Mechanics and Lightweight Design and Chair of Algebra and Representation Theory
+      institution: RWTH Aachen University, Institute of Structural Mechanics and Lightweight Design and Chair of Algebra and Representation Theory
       year: from 2024
       # description:
       #   - Co-Creation and development of the GAPic package
@@ -43,23 +43,23 @@
       #   - Maintenance and development of teaching tools
       #   - Giving tutorials
     - title: Graduate Assistant
-      institution: RWTH Aachen, Chair of Algebra and Representation Theory
+      institution: RWTH Aachen University, Chair of Algebra and Representation Theory
       year: 2023 - 2024
       description:
-        - Co-Creation and development of the GAPic package
+        - Co-creation and development of the GAPic package
         - Development on the SimplicialSurfaces package
         - Maintenance and development of teaching tools
         - Giving tutorials
     - title: Head of Department, Vice Chairperson
-      institution: AStA of RWTH Aachen
+      institution: AStA of RWTH Aachen University
       year: 2021 - 2022
       description:
-        Department for Education and University Communication (Elected office)
-        - Leading team of 12 volunteers and co-leading five employees
-        - Co-Organizing and attending international conferences
-        - Responsibility for executing financial transactions
+        - "Department for Education and University Communication (Elected office)"
+        - "Leading team of 12 volunteers and co-leading five employees"
+        - "Co-organizing and attending international conferences"
+        - "Responsibility for executing financial transactions"
     - title: Student Assistant
-      institution: RWTH Aachen, Chair of Algebra and Representation Theory
+      institution: RWTH Aachen University, Chair of Algebra and Representation Theory
       year: 2019 - 2023
       description:
         - Maintenance and development of teaching tools
@@ -69,13 +69,35 @@
 - title: Research
   type: time_table
   contents:
+    - title: "A pyramidal ISRU lunar habitat design based on topological interlocking of sintered regolith blocks"
+      institution: "<em>arXiv preprint</em>"
+      year: 2026
+      items:
+        - "Authors: L.S., Kai-Uwe Schröder, Alice C. Niemeyer, Yuri Estrin"
+        - '<a href="https://doi.org/10.48550/arXiv.2610.01770" target="_blank">https://doi.org/10.48550/arXiv.2610.01770</a>'
+    - title: "An algorithmic approach for computing fundamental domains of crystallographic groups"
+      institution: "<em>arXiv preprint</em>"
+      year: 2026
+      items:
+        - "Authors: Reymond Akpanya, Alice C. Niemeyer, L.S."
+        - '<a href="https://doi.org/10.48550/arXiv.2607.02130" target="_blank">https://doi.org/10.48550/arXiv.2607.02130</a>'
+    - title: "Influence of a generative parameter on the mechanical performance of topological interlocking assemblies of a hexagonal block"
+      institution: "<em>Procedia CIRP</em>"
+      year: 2026
+      items:
+        - "Authors: L.S., Meike Weiß, Reymond Akpanya, Kai-Uwe Schröder, Alice C. Niemeyer"
+        - '<a href="https://doi.org/10.1016/j.procir.2026.05.289" target="_blank">https://doi.org/10.1016/j.procir.2026.05.289</a>'
+    - title: "On the impact of geometric variance on the performance of formed parts: A probabilistic approach on the example of airbag pressure bins"
+      institution: "<em>Procedia CIRP</em>"
+      year: 2026
+      items:
+        - "Authors: L.S., Niklas Fehlemann, Ali O.M. Kilicsoy, Niklas Bechler, Marcos A. Valdebenito, Yannis P. Korkolis, Matthias G.R. Faes, Sebastian Münstermann, Kai-Uwe Schröder"
+        - '<a href="https://doi.org/10.1016/j.procir.2026.05.243" target="_blank">https://doi.org/10.1016/j.procir.2026.05.243</a>'
     - title: "Influence of block arrangement on mechanical performance in topological interlocking assemblies: A study of the versatile block"
       institution: "<em>International Journal of Solids and Structures</em>"
       year: 2025
       items:
-        - "With: Tom Goertzen, Domen Macek, Lukas Schnelle, Meike Weiß, Stefanie Reese, Hagen Holthusen, Alice C. Niemeyer"
-        # - "Influence of block arrangement on mechanical performance in topological interlocking assemblies: A study of the versatile block"
-        # - "International Journal of Solids and Structures"
+        - "Authors: Tom Goertzen, Domen Macek, L.S., Meike Weiß, Stefanie Reese, Hagen Holthusen, Alice C. Niemeyer"
         - '<a href="https://doi.org/10.1016/j.ijsolstr.2024.113102" target="_blank">https://doi.org/10.1016/j.ijsolstr.2024.113102</a>'
 
 - title: Awards
@@ -97,22 +119,25 @@
   contents:
     - title: <a href="https://github.com/GAP-ART-RWTH/GAPic" target="_blank">GAPic</a>
       items:
-      - Co-creator, main-developer
+      - Co-creator, main developer
     - title: <a href="https://github.com/schnellecom/SimplicialSurfaces" target="_blank">Simplicial Surfaces</a>
       items:
       - Rewrote the functionality that generates .html files of polygonal complexes to view them in the browser
       - Reworked manual generation from live-generated images to pre-generated ones to reduce initial compile time from >2h to under 3min
+    - title: <a href="https://github.com/GAP-ART-RWTH/CrystFundDom" target="_blank">CrystFundDom</a>
+      items:
+      - Contributor to algorithms for computing fundamental domains of crystallographic groups
 
 - title: Volunteering
   type: time_table
   contents:
-    - title: Member of the Examination Comitee
+    - title: Member of the Examination Committee
       year: 2019 - 2024
       description:
-    - title: DEALiStiC Board Member for the RWTH
+    - title: DEALiStiC Board Member for RWTH Aachen University
       year: 2021 - 2022
       description:
-    - title: Member of the Rektorate Commission on Teaching
+    - title: Member of the Rectorate Commission on Teaching
       year: 2021 - 2022
       description:
     - title: Member of the Constitutional Committee
@@ -125,27 +150,27 @@
       year: 2020 - 2022
       description:
 
-- title: Professional training
+- title: Professional Training
   type: nested_list
   contents:
     - title: Difficult conversations with employees and mastering conflicts
       items:
-      - RWTH Aachen
+      - RWTH Aachen University
     - title: Leading in hybrid working environments
       items:
-      - RWTH Aachen
+      - RWTH Aachen University
     - title: Lateral leadership in projects
       items:
-      - RWTH Aachen
+      - RWTH Aachen University
     - title: Understanding addiction and how to respond appropriately as a manager
       items:
-      - RWTH Aachen
+      - RWTH Aachen University
       - Short Format
-    - title: Household and economic management Student bodies
+    - title: Household and economic management of student bodies
       items:
       - LAT NRW
 
 - title: Other Interests
   type: list
   contents:
-    - "<u>Hobbies:</u> 3D Printing, Houseplants"
+    - "<u>Hobbies:</u> IT & Self-Hosting, 3D Printing, Houseplants"

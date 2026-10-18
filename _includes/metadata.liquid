@@ -34,6 +34,8 @@
     {% else %}
       {{ page.title }} | {{ title }}
     {% endif %}
+  {% elsif page.subtitle %}
+    {{ title }} | {{ page.subtitle }}
   {% else %}
     {{ title }}
   {% endif %}
@@ -52,14 +54,23 @@
 {% endif %}
 
 {% if site.serve_og_meta %}
+  {% if page.og_image %}
+    {% assign og_image_url = page.og_image %}
+  {% elsif site.og_image %}
+    {% assign og_image_url = site.og_image %}
+  {% endif %}
+  {% if og_image_url and og_image_url contains '://' %}
+  {% elsif og_image_url %}
+    {% assign og_image_url = og_image_url | relative_url | prepend: site.url %}
+  {% endif %}
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.og_image or site.og_image %}
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+  {% if og_image_url %}
+    <meta property="og:image" content="{{ og_image_url }}">
   {% endif %}
   <meta property="og:locale" content="{{ site.lang }}">
 
@@ -67,8 +78,8 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.og_image or site.og_image %}
-    <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
+  {% if og_image_url %}
+    <meta name="twitter:image" content="{{ og_image_url }}">
   {% endif %}
   {% if site.x_username %}
     <meta name="twitter:site" content="@{{ site.x_username }}">
@@ -225,12 +236,19 @@
         "author":
         {
             "@type": "Person",
-            "name": "{{ author_name }}"
+            "name": "{{ author_name }}",
+            "jobTitle": "PhD Candidate & Research Assistant",
+            "affiliation": {
+                "@type": "CollegeOrUniversity",
+                "name": "RWTH Aachen University",
+                "url": "https://www.rwth-aachen.de/"
+            }{% if sameaslinks != blank %},
+            "sameAs": {{ sameaslinks }}{% endif %}
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
-        "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
-        "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+        "description": "{{ page.description | default: site.description | strip }}",
+        "headline": "{{ page.title | default: title }}",
         {% if sameaslinks != blank %}
         "sameAs": {{ sameaslinks }},
         {% endif %}

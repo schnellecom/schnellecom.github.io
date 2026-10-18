@@ -5,9 +5,11 @@
   <a href="{{ project.redirect }}">
     <div class="card hoverable">
       {%- if project.img %}
-      {%- include figure.html
+      {%- include figure.liquid
+        loading="eager"
         path=project.img
-        alt="project thumbnail" -%}
+        sizes="250px"
+        alt=project.title -%}
       {%- endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
@@ -35,9 +37,11 @@
   <a href="{{ project.url | relative_url }}">
     <div class="card hoverable">
       {%- if project.img %}
-      {%- include figure.html
+      {%- include figure.liquid
+        loading="eager"
         path=project.img
-        alt="project thumbnail" -%}
+        sizes="250px"
+        alt=project.title -%}
       {%- endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>

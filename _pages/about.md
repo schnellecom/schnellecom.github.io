@@ -12,15 +12,12 @@ profile:
   address: 
 
 news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD candidate and research assistant at [RWTH Aachen University](https://www.rwth-aachen.de/), jointly affiliated with the [Institute of Structural Mechanics and Lightweight Design (SLA)](https://www.sla.rwth-aachen.de/) and the [Chair of Algebra and Representation Theory (ART)](https://www.art.rwth-aachen.de/), supervised by Prof. Dr.-Ing. Kai-Uwe Schröder and Prof. Dr. Alice C. Niemeyer.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research bridges pure mathematics and structural engineering, focusing on the intersection of **topological interlocking** and **crystallographic groups** with applications in lightweight design and civil engineering. I am actively involved in the DFG Collaborative Research Centres [SFB/TRR 280](https://www.sfbtrr280.de/) (*Design Strategies for Material-Minimized Carbon Reinforced Concrete Structures*) and [SFB/TRR 188](https://trr188.de/) (*Damage Controlled Forming Processes*). Alongside my theoretical and numerical work, I contribute to the open-source computer algebra system [GAP](https://www.gap-system.org/), co-creating and developing packages such as [`GAPic`](/projects/gapic/), [`SimplicialSurfaces`](/projects/simplicial-surfaces/), and [`CrystFundDom`](/projects/crystfunddom/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-
-Currently I am working on the intersection of topological interlocking and crystallographic groups with applications in lightweight design.
-In my spare time I usually like to tinker with computers, servers or other IT stuff. In recent years I also developed a passion for 3D printing and designing. For relaxation I also care of some houseplants which has become a quite fulfilling hobby.
+In my spare time, I enjoy tinkering with computers, servers, and self-hosted IT infrastructure, as well as 3D printing. For relaxation, I also take care of houseplants, which has become a fulfilling hobby.

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: SFB-TRR 280
+title: SFB/TRR 280
+permalink: /projects/sfb-trr-280/
 description: DFG Collaborative Research Centre
 img: assets/img/logo_SFB.svg
 importance: 1
